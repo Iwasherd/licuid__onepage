@@ -1,0 +1,173 @@
+.hero{
+    background-image: url(../images/photo.jpg);
+    background-size: cover;
+    height: 640px;
+    width: 100%;
+    overflow-y: hidden;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.hero__header{
+   width: 83.3%;
+   height: 80px;
+   display: flex;
+   justify-content: space-between;
+}
+.header__logo-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    margin-left: 10px;
+}
+.header__logo-name{
+    font-family: $qB;
+    color: $white;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.header__logo-text{
+    display: flex;
+    flex-wrap: wrap;
+    color: darken($color: $grey, $amount: 35%);
+    font-size: 9px;
+    line-height: 10px;
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+.header__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+}
+.menu__list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 455px;
+    margin: 0;
+    padding: 0;
+
+}
+.menu__item{
+    margin-right: 20px;
+}
+.menu__link{
+    color: $white;
+    text-decoration: none;
+    font-family: $ssSB;
+    display: flex;
+    flex-wrap: wrap;
+    svg {
+        width: 100%;
+        height: 15px;
+        transform: scaleX(0);
+    }
+    &:hover{
+        svg {
+            transition: .7s;
+            transform: scaleX(1);
+        }
+    }
+    
+}
+.active{
+    svg {
+            transition: .7s;
+            width: 100%;
+            height: 15px;
+            transform: scaleX(1);
+        }
+}
+.hero__col{
+    width: 83.3%;
+    display: flex;
+    flex-direction: row;
+}
+.hero__row{
+    width: 100%;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/phoneHero.png);
+    background-repeat: no-repeat;
+    background-position-x: 94%;
+        background-position-y: -142%;
+    display: flex;
+    justify-content: flex-start;
+}
+.hero__content{
+    width: 50%;
+    margin-top: 75px;
+    margin-left: 5px;
+}
+.hero__content-introducing{
+    font-family: $ssB;
+    color: $blue;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.hero__content-title{
+    color: $white;
+    font-size: 42px;
+    margin-right: 27%;
+}
+.hero__content-text{
+    color: darken($color: $grey, $amount: 2%);
+    margin-right: 32%;
+    line-height: 24px;
+}
+.hero__content-btns{
+    margin-top: 60px;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+}
+.btn{
+    width: 161px;
+    height: 52px;
+    margin-right: 20px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid darken($color: $grey, $amount: 20%);
+    &:hover{
+        transition: .7s;
+        background: $blue;
+    }
+}
+.btn__link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: $white;
+    text-transform: uppercase;
+    font-family: $ssB;
+    font-size: 14px;
+
+}
+.hero__img-block{
+    background-image: url(../images/phoneHero.png);
+    background-repeat: no-repeat;
+    width: 475px;
+    background-size: cover;
+    height: 619px;
+    transform: translateY(40px);
+    margin-left: 113px;
+}
+
+

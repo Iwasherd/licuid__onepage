@@ -1,0 +1,32 @@
+section.section.features#features
+    include mixins
+    .features__subtitle-block.subtitle-block
+        p.features__title-text product overview
+        h2.subtitle List of amazing features
+            <svg>
+                < <line x1="0" y1="10" x2="20" y2="10" stroke='#008ed6' stroke-width="2"/>
+                <line x1="22" y1="10" x2="42" y2="10" stroke='#008ed6' stroke-width="2"/>
+            </svg>
+    .features__content
+        ul.features__list
+            li.features__item
+                .features__item-img-block
+                    +icon("icon-monitor")
+                h3.features__item-titile Responsive
+                p.features__item-text Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
+            li.features__item
+                .features__item-img-block
+                    +icon("icon-settings")
+                h3.features__item-titile Customizable
+                p.features__item-text Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
+            li.features__item
+                .features__item-img-block
+                    +icon("icon-Like")
+                h3.features__item-titile Lovely design
+                p.features__item-text Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
+            li.features__item
+                .features__item-img-block
+                    +icon("icon-Phone")
+                h3.features__item-titile Mobile Friendly
+                p.features__item-text Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
+            

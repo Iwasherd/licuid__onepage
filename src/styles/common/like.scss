@@ -1,0 +1,24 @@
+.like{
+    width: 100%;
+    height: 170px;
+    background-color: $black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.like__text-bold{
+    font-family: $ssSB;
+    font-size: 36px;
+    color: $white;
+    margin-right: 10px;
+
+}
+.like__text-normal{
+    font-size: 36px;
+    color: $white;
+    font-family: $ssL;
+}
+.like__btns{
+    flex-direction: row-reverse;
+}

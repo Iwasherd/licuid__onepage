@@ -1,0 +1,34 @@
+.super{
+    width: 100%;
+    background-color: lighten($color: $grey, $amount: 35%);
+    height: 545px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+
+
+}
+.super__content-block{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.super__content-subtitle{
+    align-items: flex-start;
+        .subtitle{
+            align-items: flex-start;
+        }
+}
+.super__content-text{
+    color: $grey;
+    line-height: 22px;
+}
+.super__img-block{
+    width: 50%;
+    background: url('../images/iPhone 5.png');
+    background-repeat: no-repeat;
+    background-position-x: 10%;
+    background-position-y: 80%;
+}

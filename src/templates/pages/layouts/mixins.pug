@@ -1,0 +1,7 @@
+mixin icon(name)
+  - mod = mod || ''
+      svg(class="icon icon-" + name)
+        use(xlink:href="styles/images/icons/sprite.svg#" + name)
+
+
+

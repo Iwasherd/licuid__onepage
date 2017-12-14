@@ -1,0 +1,20 @@
+.socials{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.socials__link{
+    
+}
+.socials__icons{
+    margin-right: 30px;
+    svg{
+        width: 22px;
+        height: 22px;
+        fill: darken($color:  $grey, $amount: 30%);
+        &:hover{
+            transition: .7s;
+            fill: $blue;
+        }
+    }
+}

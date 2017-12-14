@@ -1,0 +1,16 @@
+form.form(action="")
+    .form-block
+        .form-block__col
+            .form-block__row
+                label.form-block__label(for="name")
+                    input.form-block__input(type="text" name="name" placeholder="NAME *")#name
+                label.form-block__label(for="mail")
+                    input.form-block__input(type="email" name="mail" placeholder="EMAIL *")#mail    
+                label.form-block__label(for="subject")
+                    input.form-block__input(type="text" name="subject" placeholder="SUBJECT *")#subject
+        .form-block__col
+            .form-block__row
+                label.form-block__label(for="messege")
+                    textarea.form-block__textarea(name="messege" placeholder="MESSAGE *")#messege
+    .form-block__btn
+            input.form-block__btn-input(type="submit" value="SEND MESSEGE")
