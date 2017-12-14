@@ -1,31 +1,32 @@
 section.section.contact#contact
-    .contact__subtitle-block
-        .subtitle-block
-            p.features__title-text stay in touch
-            h2.subtitle Contact us
-                <svg>
-                    <line x1="0" y1="10" x2="48%" y2="10" stroke='#008ed6' stroke-width="2"/>
-                    <line x1="52%" y1="10" x2="100%" y2="10" stroke='#008ed6' stroke-width="2"/>
-                </svg>
-    address.contact__address
-        ul.contact__address-list
-            li.contact__address-items
-                .contact__address-img
-                    +icon("icon-Phone")
-                span.contact__address-string
-                    a.contact__address-string-phone(href="tel:4151245678") Phone: (415) 124-5678
-                span.contact__address-string
-                    a.contact__address-string-fax(href="fax:4121238290") Fax: (412) 123-8290
-            li.contact__address-items
-                .contact__address-img
-                    +icon("icon-Pointer")
-                span.contact__address-string 1001 Brickell Bay Dr.
-                span.contact__address-string Suite 1900
-                span.contact__address-string Miami, АД 33131
-            li.contact__address-items
-                .contact__address-img
-                    +icon("icon-Envelope")
-                span.contact__address-string support@yourname.com
-    include form
+    .container
+        .contact__subtitle-block
+            .subtitle-block
+                p.features__title-text stay in touch
+                h2.subtitle Contact us
+                    <svg>
+                        <line x1="0" y1="10" x2="48%" y2="10" stroke='#008ed6' stroke-width="2"/>
+                        <line x1="52%" y1="10" x2="100%" y2="10" stroke='#008ed6' stroke-width="2"/>
+                    </svg>
+        address.contact__address
+            ul.contact__address-list
+                li.contact__address-items
+                    .contact__address-img
+                        +icon("icon-Phone")
+                    span.contact__address-string
+                        a.contact__address-string-phone(href="tel:4151245678") Phone: (415) 124-5678
+                    span.contact__address-string
+                        a.contact__address-string-fax(href="fax:4121238290") Fax: (412) 123-8290
+                li.contact__address-items
+                    .contact__address-img
+                        +icon("icon-Pointer")
+                    span.contact__address-string 1001 Brickell Bay Dr.
+                    span.contact__address-string Suite 1900
+                    span.contact__address-string Miami, АД 33131
+                li.contact__address-items
+                    .contact__address-img
+                        +icon("icon-Envelope")
+                    span.contact__address-string support@yourname.com
+        include form
 
-            
+                

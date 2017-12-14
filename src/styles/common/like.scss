@@ -6,6 +6,12 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
 .like__text-bold{
     font-family: $ssSB;

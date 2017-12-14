@@ -4,13 +4,17 @@
     height: 640px;
     width: 100%;
     overflow-y: hidden;
+    justify-content: center;
+    display: flex;
 }
 .container{
     width: 100%;
+    max-width: 1440px;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     
 }
 .hero__header{

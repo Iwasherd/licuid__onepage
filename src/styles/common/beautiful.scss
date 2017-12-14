@@ -3,6 +3,11 @@
     flex-direction: row;
     width: 100%;
     height: 705px;
+    justify-content: center;
+    .container{
+        flex-direction: row;
+        align-items: stretch;
+    }
 }
 .about__img-block{
     width: 50%;
